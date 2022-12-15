@@ -1,56 +1,56 @@
 ﻿  CameraManager.cpp
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Source\vmath.h(1022,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Source\vmath.h(1022,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   EventHandler.cpp
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: 'M_PI': macro redefinition
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Libraries\SDL_stdinc.h(499,1): message : see previous definition of 'M_PI'
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Source\vmath.h(1022,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: 'M_PI': macro redefinition
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Libraries\SDL_stdinc.h(499): message : see previous definition of 'M_PI'
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Source\vmath.h(1022,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   GamePlayManager.cpp
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: 'M_PI': macro redefinition
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Libraries\SDL_stdinc.h(499,1): message : see previous definition of 'M_PI'
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Source\vmath.h(1022,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: 'M_PI': macro redefinition
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Libraries\SDL_stdinc.h(499): message : see previous definition of 'M_PI'
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Source\vmath.h(1022,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   LightManager.cpp
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Source\vmath.h(1022,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Source\LightManager.cpp(21,50): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Source\LightManager.cpp(22,49): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Source\vmath.h(1022,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Source\LightManager.cpp(21,50): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Source\LightManager.cpp(22,49): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
   main.cpp
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: 'M_PI': macro redefinition
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Libraries\SDL_stdinc.h(499,1): message : see previous definition of 'M_PI'
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Source\vmath.h(1022,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Source\ShaderManager.h(33,49): warning C4042: 'CubeVB': has bad storage class
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Source\ShaderManager.h(34,44): warning C4042: 'CubeVB': has bad storage class
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Source\ShaderManager.h(35,50): warning C4042: 'normalsVB': has bad storage class
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Source\main.cpp(32,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: 'M_PI': macro redefinition
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Libraries\SDL_stdinc.h(499): message : see previous definition of 'M_PI'
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Source\vmath.h(1022,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Source\ShaderManager.h(33,49): warning C4042: 'CubeVB': has bad storage class
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Source\ShaderManager.h(34,44): warning C4042: 'CubeVB': has bad storage class
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Source\ShaderManager.h(35,50): warning C4042: 'normalsVB': has bad storage class
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Source\main.cpp(32,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   Cube.cpp
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Source\ShaderManager.h(33,49): warning C4042: 'CubeVB': has bad storage class
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Source\ShaderManager.h(34,44): warning C4042: 'CubeVB': has bad storage class
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Source\ShaderManager.h(35,50): warning C4042: 'normalsVB': has bad storage class
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Source\ShaderManager.h(33,49): warning C4042: 'CubeVB': has bad storage class
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Source\ShaderManager.h(34,44): warning C4042: 'CubeVB': has bad storage class
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Source\ShaderManager.h(35,50): warning C4042: 'normalsVB': has bad storage class
   GameObject2D.cpp
   GameObject3D.cpp
   ObjModel.cpp
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Source\Objects\ObjModel.cpp(27,25): warning C4018: '<': signed/unsigned mismatch
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Source\Objects\ObjModel.cpp(27,25): warning C4018: '<': signed/unsigned mismatch
   Pumpkin.cpp
   Wall.cpp
   SDLHelper.cpp
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Source\ShaderManager.h(33,49): warning C4042: 'CubeVB': has bad storage class
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Source\ShaderManager.h(34,44): warning C4042: 'CubeVB': has bad storage class
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Source\ShaderManager.h(35,50): warning C4042: 'normalsVB': has bad storage class
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Source\SDLHelper.cpp(61,27): warning C4838: conversion from 'int' to 'Uint8' requires a narrowing conversion
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Source\SDLHelper.cpp(61,41): warning C4838: conversion from 'int' to 'Uint8' requires a narrowing conversion
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Source\SDLHelper.cpp(61,56): warning C4838: conversion from 'int' to 'Uint8' requires a narrowing conversion
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Source\SDLHelper.cpp(115,16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Source\SDLHelper.cpp(119,17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Source\SDLHelper.cpp(120,17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Source\SDLHelper.cpp(124,17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Source\SDLHelper.cpp(125,17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Source\ShaderManager.h(33,49): warning C4042: 'CubeVB': has bad storage class
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Source\ShaderManager.h(34,44): warning C4042: 'CubeVB': has bad storage class
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Source\ShaderManager.h(35,50): warning C4042: 'normalsVB': has bad storage class
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Source\SDLHelper.cpp(61,27): warning C4838: conversion from 'int' to 'Uint8' requires a narrowing conversion
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Source\SDLHelper.cpp(61,41): warning C4838: conversion from 'int' to 'Uint8' requires a narrowing conversion
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Source\SDLHelper.cpp(61,56): warning C4838: conversion from 'int' to 'Uint8' requires a narrowing conversion
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Source\SDLHelper.cpp(115,16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Source\SDLHelper.cpp(119,17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Source\SDLHelper.cpp(120,17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Source\SDLHelper.cpp(124,17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Source\SDLHelper.cpp(125,17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
   ShaderManager.cpp
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Source\ShaderManager.h(33,49): warning C4042: 'CubeVB': has bad storage class
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Source\ShaderManager.h(34,44): warning C4042: 'CubeVB': has bad storage class
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Source\ShaderManager.h(35,50): warning C4042: 'normalsVB': has bad storage class
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: 'M_PI': macro redefinition
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Libraries\SDL_stdinc.h(499,1): message : see previous definition of 'M_PI'
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Source\ShaderManager.cpp(36,63): warning C4042: 'CubeVB': has bad storage class
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Source\ShaderManager.cpp(42,56): warning C4042: 'uvVB': has bad storage class
-C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\SDLGame\Source\ShaderManager.cpp(48,64): warning C4042: 'normalsVB': has bad storage class
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Source\ShaderManager.h(33,49): warning C4042: 'CubeVB': has bad storage class
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Source\ShaderManager.h(34,44): warning C4042: 'CubeVB': has bad storage class
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Source\ShaderManager.h(35,50): warning C4042: 'normalsVB': has bad storage class
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math_defines.h(28,1): warning C4005: 'M_PI': macro redefinition
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Libraries\SDL_stdinc.h(499): message : see previous definition of 'M_PI'
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Source\ShaderManager.cpp(36,63): warning C4042: 'CubeVB': has bad storage class
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Source\ShaderManager.cpp(42,56): warning C4042: 'uvVB': has bad storage class
+P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\SDLGame\Source\ShaderManager.cpp(48,64): warning C4042: 'normalsVB': has bad storage class
   Utils.cpp
   Generating Code...
-  SDLGame.vcxproj -> C:\School\Second Year\First Semester\GAME_300\Labs\SDLBaseProject6\Debug\SDLGame.exe
+  SDLGame.vcxproj -> P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\Debug\SDLGame.exe

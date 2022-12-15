@@ -1,2 +1,2 @@
-#TargetFrameworkVersion=v4.0:PlatformToolSet=v141:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=10.0.17134.0
-Debug|x64|D:\FALL 2019\GAME 300 - Graphics Programming\2019\Week_13\Lab6\SDLBaseProject\|
+PlatformToolSet=v143:VCToolArchitecture=Native64Bit:VCToolsVersion=14.31.31103:TargetPlatformVersion=10.0.19041.0:VcpkgTriplet=x64-windows:
+Debug|x64|P:\St. Lawrence College\Semester 3\Graphics Programming - James\Lab6\GAME300-Lab6\|
