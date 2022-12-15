@@ -41,8 +41,11 @@ private:
 	~GamePlayManager();
 
 	Pumpkin pumpkin;
+
 	Box walls;
+
 	Cube cubey;
+	Cube cubey2;
 
 	static GamePlayManager* instance;
 };

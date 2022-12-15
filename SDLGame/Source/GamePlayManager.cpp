@@ -46,14 +46,18 @@ void GamePlayManager::InitGameplay()
 	CameraManager::GetInstance()->SetupCamera();
 
 	pumpkin.Init("Data\\Art\\single_pumpkin.obj");
+
 	walls.Init(20.0f);
-	cubey.Init();
+
+	cubey.Init(-1.0f, 1);
+	cubey2.Init(-0.5f, 2);
 }
 
 
 void GamePlayManager::Update()
 {
 	CameraManager::GetInstance()->Update();
-	cubey.Update();
+
 	cubey.Draw();
+	cubey2.Draw();
 }

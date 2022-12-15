@@ -148,4 +148,21 @@ void CameraManager::Rotate(int x, int y)
 		}
 		CameraRotation.y += yRot;
 	}
+
+	if (fabs(xRot) < 0.60f)
+	{
+		xRot = 0.0f;
+	}
+	else
+	{
+		if (xRot < 0)
+		{
+			xRot = ((xRot + 0.6f) / 0.4f);
+		}
+		else
+		{
+			xRot = ((xRot - 0.6f) / 0.4f);
+		}
+		CameraRotation.x += xRot;
+	}
 }
