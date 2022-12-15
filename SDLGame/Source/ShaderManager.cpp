@@ -4,6 +4,7 @@
 #include "Utils.h"
 #include "vmath.h"
 #include "CameraManager.h"
+#include "LightManager.h"
 
 using namespace std;
 
@@ -58,6 +59,8 @@ void ShaderManager::FindUniformHandles()
 	ModelViewUniformHandle = glGetUniformLocation(programObj, "mv_matrix");
 
 	ProjectionUniformHandle = glGetUniformLocation(programObj, "proj_matrix");
+
+	lightColorHandle = glGetUniformLocation(programObj, "color");
 }
 
 void ShaderManager::LoadShaderFromFile(const char * shaderfile, GLenum type)
@@ -157,6 +160,8 @@ void ShaderManager::Render(GLuint texture, Vec3 position)
 
 	vmath::mat4 mv_matrix = vmath::translate(position.x, position.y, position.z);
 	glUniformMatrix4fv(ModelViewUniformHandle, 1, GL_FALSE, mv_matrix);
+
+	glUniform3fv(lightColorHandle, 1, LightManager::GetInstance()->lightColor);
 
 	glDrawArraysInstanced(GL_TRIANGLES, 0, 12 * 3, 10*10);
 	glDisableVertexAttribArray(0);

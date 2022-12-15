@@ -53,6 +53,8 @@ private:
 	GLuint UVHandle;
 	GLuint uv_buffer;
 	
+	GLint lightColorHandle;
+	
 	static ShaderManager* instance;
 };
 

@@ -5,6 +5,8 @@
 #include "glew.h"
 #include "vmath.h"
 #include "Math.h"
+#include "iostream"
+#include "Vector"
 
 class LightManager
 {
@@ -23,14 +25,14 @@ public:
 
 	void UpdateL();
 
-
+	GLfloat lightColor[4] = { 0.6f, 0.7f, 0.8f, 1.0f };
 private:
 
 	LightManager();
 	~LightManager();
 
 	
-	GLfloat lightColor[4] = { 0.6f, 0.7f, 0.8f, 1.0f };
+	
 
 	static LightManager* instance;
 };

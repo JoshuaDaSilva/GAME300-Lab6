@@ -11,7 +11,8 @@ vec3 L = normalize(lightVec);
 
 uniform sampler2D texture0;
 
-uniform vec3 ambientLight = vec3(0.2,0.2,0.2);
+in vec3 lightColor; 
+vec3 ambientLight = lightColor;
 
 uniform vec3 diffuse_albedo = vec3(1.0, 1.0, 1.0);
 

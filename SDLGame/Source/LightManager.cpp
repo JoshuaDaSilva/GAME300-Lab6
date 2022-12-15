@@ -45,14 +45,32 @@ void LightManager::ApplyLighting()
 
 void LightManager::UpdateL()
 {
-	glLightfv(GL_LIGHT0, GL_AMBIENT, lightColor);
+	
 	
 	if (EventHandler::events[ControlsEvents::UP_PRESSED])
 	{
-		lightColor[0] += 0.1f;
-		lightColor[1] += 0.1f;
-		lightColor[2] += 0.1f;
-		lightColor[3] += 0.1f;
+		
+		if (lightColor[0] < 1.0f)
+		{
+			lightColor[0] += 0.1f;
+			lightColor[1] = 0.0f;
+		}
+		else if (lightColor[1] <1.0f)
+		{
+			lightColor[1] += 0.1f;
+			lightColor[2] = 0.0f;
+
+		}
+		else if (lightColor[2] < 1.0f)
+		{
+			lightColor[2] += 0.1f;
+			lightColor[0] = 0.0f;
+		}
+		
+		
+		
+		std::cout << "Up pressed";
+		//lightColor[3] += 0.1f;
 	}
 
 	if (EventHandler::events[ControlsEvents::DOWN_PRESSED])
