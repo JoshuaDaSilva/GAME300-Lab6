@@ -12,7 +12,7 @@ public:
 	~Cube();
 
 	// used for any variables and data that needs to be setup on the object before we try to use it.
-	virtual void Init();
+	virtual void Init(float posY, int index);
 
 	// used to render the object to the screen
 	virtual void Draw();
@@ -28,5 +28,6 @@ public:
 private:
 
 	GLuint Textures[2];
+	int m_Index;
 };
 

@@ -12,14 +12,16 @@ Cube::~Cube()
 {
 }
 
-void Cube::Init()
+void Cube::Init(float posY, int index)
 {
+	m_Index = index;
+
 	velocity.x = 0.0f;
 	velocity.y = 0.0f;
 	velocity.z = 0.0f;
 
 	transform.position.z = -2;
-	transform.position.y = -0.75;
+	transform.position.y = posY;
 	transform.position.x = -1.5;
 
 	dimensions.x = 5.0;	// width
@@ -187,10 +189,20 @@ void Cube::Init()
 void Cube::LoadTexture()
 {
 	// create a handle for the texture so openGL has an area allocated to manage all our binary image data.
-	glGenTextures(2, &Textures[0]);
+	//glGenTextures(2, &Textures[0]);
 
 	// now tell OpenGL this is the texture we are currently using for all subsequent texture calls.
+	if (m_Index == 1)
+	{
+		glGenTextures(2, &Textures[0]);
+	}
+	else
+	{
+		glGenTextures(2, &Textures[1]);
+	}
+
 	glActiveTexture(GL_TEXTURE1);
+
 	glBindTexture(GL_TEXTURE_2D, Textures[0]);
 
 	unsigned int width, height;
